@@ -1,0 +1,37 @@
+cat > ~/var/log/myapp/application.log << 'EOF'
+2026-09-10 08:15:23 INFO  Application started successfully
+2026-09-10 08:15:24 INFO  Loading configuration from config.yaml
+2026-09-10 08:16:01 INFO  User pooja675 logged in
+2026-09-10 09:22:45 WARN  API response time exceeded 2000ms
+2026-09-10 10:05:12 ERROR Failed to connect to database: connection timeout
+2026-09-10 10:05:15 INFO  Retrying database connection (attempt 2)
+2026-09-10 10:05:18 INFO  Database connection restored
+2026-09-10 11:40:02 ERROR Unhandled exception in OrderController: NullPointerException
+2026-09-10 12:15:37 FATAL Out of memory: application heap exhausted, shutting down worker
+2026-09-10 12:15:40 INFO  Worker process restarted by supervisor
+2026-09-11 07:30:00 INFO  Scheduled backup job started
+2026-09-11 07:32:14 INFO  Scheduled backup job completed
+2026-09-11 09:05:52 ERROR Failed to write to cache: connection refused
+2026-09-11 09:10:03 ERROR Cache write retry failed after 3 attempts
+2026-09-11 14:12:09 ERROR NullPointerException in UserService.java line 142
+2026-09-11 14:12:10 INFO  Error logged and reported to monitoring
+2026-09-11 16:48:29 FATAL Database connection pool exhausted, application halted
+2026-09-11 16:49:00 INFO  Manual restart initiated by admin
+2026-09-12 03:00:00 INFO  Daily cleanup task started
+2026-09-12 03:00:45 WARN  Disk usage at 85%, consider cleanup
+2026-09-12 09:45:33 INFO  New user registration: user_2938
+2026-09-12 10:30:14 ERROR Invalid JSON payload received on /api/orders
+2026-09-12 11:20:17 ERROR Payment gateway timeout for transaction #88213
+2026-09-12 11:20:20 INFO  Payment retry successful
+2026-09-12 13:05:41 ERROR Authentication service returned 500
+2026-09-12 15:22:09 FATAL Critical config file missing: db-config.yaml, cannot proceed
+2026-09-12 15:22:10 INFO  Application entered safe mode
+2026-09-13 09:11:03 ERROR File upload failed: disk quota exceeded
+2026-09-13 10:47:55 ERROR Session token validation failed for user_5521
+2026-09-13 13:02:18 ERROR Third-party API rate limit exceeded
+2026-09-13 16:05:00 WARN  Memory usage above threshold: 78%
+2026-09-13 17:40:33 FATAL Segmentation fault in image-processing module
+2026-09-13 17:41:00 INFO  Service auto-recovered by process manager
+2026-09-13 18:30:44 INFO  Application shutdown initiated
+2026-09-13 18:30:46 INFO  Application stopped
+EOF

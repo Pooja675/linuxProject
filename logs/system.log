@@ -1,0 +1,34 @@
+cat > ~/var/log/myapp/system.log << 'EOF'
+2026-09-10 00:00:01 INFO  System boot sequence initiated
+2026-09-10 00:00:15 INFO  All services started successfully
+2026-09-10 06:45:22 WARN  CPU usage spiked to 92%
+2026-09-10 06:45:30 INFO  CPU usage normalized to 45%
+2026-09-10 12:30:11 ERROR Disk I/O error on /dev/sda1
+2026-09-10 12:30:12 INFO  Filesystem check triggered
+2026-09-10 14:02:47 ERROR Kernel module 'nvidia' failed to load
+2026-09-10 18:20:09 FATAL Root filesystem corruption detected on /dev/sda1
+2026-09-10 18:21:00 INFO  System rebooted into recovery mode
+2026-09-11 02:00:00 INFO  Cron job: system update check
+2026-09-11 02:05:33 INFO  3 packages updated successfully
+2026-09-11 09:14:22 ERROR Package dependency conflict: libssl version mismatch
+2026-09-11 15:22:08 WARN  Network latency detected: 350ms average
+2026-09-11 17:38:55 ERROR Network interface eth0 down unexpectedly
+2026-09-11 20:10:45 ERROR Service 'nginx' crashed unexpectedly
+2026-09-11 20:10:47 INFO  Service 'nginx' restarted automatically
+2026-09-11 23:59:12 FATAL Watchdog timer expired: system unresponsive
+2026-09-12 00:00:01 INFO  System auto-restarted after watchdog trigger
+2026-09-12 04:15:00 INFO  Automated backup snapshot created
+2026-09-12 08:47:33 ERROR Permission denied writing to /var/log/audit.log
+2026-09-12 13:40:19 WARN  Swap memory usage increasing
+2026-09-12 16:05:44 ERROR RAID array degraded: disk 2 failure detected
+2026-09-12 19:55:02 ERROR Out of memory: killed process PID 4521
+2026-09-12 21:12:30 FATAL Kernel panic: unable to mount root filesystem
+2026-09-12 21:13:00 INFO  System recovered via failsafe boot
+2026-09-13 01:00:00 INFO  Log rotation completed
+2026-09-13 09:12:34 WARN  SSL certificate expires in 15 days
+2026-09-13 11:05:27 ERROR Firewall rule conflict detected on port 8443
+2026-09-13 14:30:19 ERROR Temperature sensor reading failure on CPU0
+2026-09-13 20:44:02 FATAL Power supply failure detected, emergency shutdown triggered
+2026-09-13 22:00:00 INFO  System shutdown scheduled for maintenance
+2026-09-13 22:00:05 INFO  Maintenance mode enabled
+EOF

@@ -1,0 +1,71 @@
+Analysing log files
+========================
+
+ List of log files updated in last 24 hours
+/home/pooja675/logs/system.log /home/pooja675/logs/application.log
+
+Searching ERROR log in /home/pooja675/logs/system.log file
+2026-09-10 12:30:11 ERROR Disk I/O error on /dev/sda1
+2026-09-10 14:02:47 ERROR Kernel module 'nvidia' failed to load
+2026-09-11 09:14:22 ERROR Package dependency conflict: libssl version mismatch
+2026-09-11 17:38:55 ERROR Network interface eth0 down unexpectedly
+2026-09-11 20:10:45 ERROR Service 'nginx' crashed unexpectedly
+2026-09-12 08:47:33 ERROR Permission denied writing to /var/log/audit.log
+2026-09-12 16:05:44 ERROR RAID array degraded: disk 2 failure detected
+2026-09-12 19:55:02 ERROR Out of memory: killed process PID 4521
+2026-09-13 11:05:27 ERROR Firewall rule conflict detected on port 8443
+2026-09-13 14:30:19 ERROR Temperature sensor reading failure on CPU0
+
+Number of ERROR log in /home/pooja675/logs/system.log file
+10
+
+Searching FATAL log in /home/pooja675/logs/system.log file
+2026-09-10 18:20:09 FATAL Root filesystem corruption detected on /dev/sda1
+2026-09-11 23:59:12 FATAL Watchdog timer expired: system unresponsive
+2026-09-12 21:12:30 FATAL Kernel panic: unable to mount root filesystem
+2026-09-13 20:44:02 FATAL Power supply failure detected, emergency shutdown triggered
+
+Number of FATAL log in /home/pooja675/logs/system.log file
+4
+
+Searching WARN log in /home/pooja675/logs/system.log file
+2026-09-10 06:45:22 WARN  CPU usage spiked to 92%
+2026-09-11 15:22:08 WARN  Network latency detected: 350ms average
+2026-09-12 13:40:19 WARN  Swap memory usage increasing
+2026-09-13 09:12:34 WARN  SSL certificate expires in 15 days
+
+Number of WARN log in /home/pooja675/logs/system.log file
+4
+
+Searching ERROR log in /home/pooja675/logs/application.log file
+2026-09-10 10:05:12 ERROR Failed to connect to database: connection timeout
+2026-09-10 11:40:02 ERROR Unhandled exception in OrderController: NullPointerException
+2026-09-11 09:05:52 ERROR Failed to write to cache: connection refused
+2026-09-11 09:10:03 ERROR Cache write retry failed after 3 attempts
+2026-09-11 14:12:09 ERROR NullPointerException in UserService.java line 142
+2026-09-12 10:30:14 ERROR Invalid JSON payload received on /api/orders
+2026-09-12 11:20:17 ERROR Payment gateway timeout for transaction #88213
+2026-09-12 13:05:41 ERROR Authentication service returned 500
+2026-09-13 09:11:03 ERROR File upload failed: disk quota exceeded
+2026-09-13 10:47:55 ERROR Session token validation failed for user_5521
+2026-09-13 13:02:18 ERROR Third-party API rate limit exceeded
+
+Number of ERROR log in /home/pooja675/logs/application.log file
+11
+
+Searching FATAL log in /home/pooja675/logs/application.log file
+2026-09-10 12:15:37 FATAL Out of memory: application heap exhausted, shutting down worker
+2026-09-11 16:48:29 FATAL Database connection pool exhausted, application halted
+2026-09-12 15:22:09 FATAL Critical config file missing: db-config.yaml, cannot proceed
+2026-09-13 17:40:33 FATAL Segmentation fault in image-processing module
+
+Number of FATAL log in /home/pooja675/logs/application.log file
+4
+
+Searching WARN log in /home/pooja675/logs/application.log file
+2026-09-10 09:22:45 WARN  API response time exceeded 2000ms
+2026-09-12 03:00:45 WARN  Disk usage at 85%, consider cleanup
+2026-09-13 16:05:00 WARN  Memory usage above threshold: 78%
+
+Number of WARN log in /home/pooja675/logs/application.log file
+3
