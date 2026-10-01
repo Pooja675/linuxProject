@@ -1,0 +1,15 @@
+DAILY STUDY PLAN
+================
+
+06:30 - 07:00  Walk or light exercise
+07:00 - 08:00  Breakfast and plan the day
+09:00 - 11:00  Deep work: one focused coding topic
+11:00 - 11:15  Break
+11:15 - 13:00  Build or fix something in a project
+13:00 - 14:00  Lunch and rest
+14:00 - 15:30  Practice problems (DSA / scripting)
+15:30 - 16:00  Revise notes
+16:00 - 17:00  Read documentation or watch a tutorial
+21:30          Write down what was learned today, then sleep
+
+Rule of thumb: finish one small thing every day.

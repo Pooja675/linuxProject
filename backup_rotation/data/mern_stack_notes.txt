@@ -1,0 +1,18 @@
+MERN STACK QUICK NOTES
+======================
+
+M - MongoDB    : NoSQL database storing JSON-like documents
+E - Express.js : Minimal web framework for Node.js (routing, middleware)
+R - React      : Library for building component-based user interfaces
+N - Node.js    : JavaScript runtime for running code on the server
+
+Typical request flow:
+  React (client) -> Express route -> Controller -> Mongoose model -> MongoDB
+  MongoDB -> Mongoose -> Controller -> JSON response -> React state -> UI
+
+Good practices:
+  - Keep routes, controllers and models in separate folders
+  - Store secrets in a .env file and never commit it
+  - Validate input on both client and server
+  - Use JWT or sessions for authentication
+  - Handle errors with a central error-handling middleware

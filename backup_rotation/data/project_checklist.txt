@@ -1,0 +1,13 @@
+PROJECT READINESS CHECKLIST
+===========================
+
+[ ] README explains what the project does and how to run it
+[ ] .gitignore excludes node_modules and .env
+[ ] Environment variables documented in .env.example
+[ ] Input validation on all API endpoints
+[ ] Passwords hashed, never stored in plain text
+[ ] Meaningful error messages and status codes
+[ ] Basic tests for critical features
+[ ] Responsive layout checked on mobile
+[ ] Loading and error states in the UI
+[ ] Deployed link added to the README

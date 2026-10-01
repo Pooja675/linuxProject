@@ -1,0 +1,16 @@
+READING AND LEARNING LIST
+=========================
+
+Books
+  - The Pragmatic Programmer - Hunt and Thomas
+  - Clean Code - Robert C. Martin
+  - Eloquent JavaScript - Marijn Haverbeke
+
+Topics to explore
+  - Linux command line and shell scripting
+  - REST API design and HTTP status codes
+  - Database indexing and query optimization
+  - Authentication and authorization patterns
+  - Git branching and pull request workflows
+
+Habit: read for 20 minutes daily and write a two-line summary.
